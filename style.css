@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+#header{
+}
+.header{
+    background: linear-gradient(90deg, #72072D 0%, #FF005C 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header h1{
+    font-weight: 700;
+    font-size: 40px;
+   color: #FFFFFF;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 518px;
+    height: 43px;
+    background: linear-gradient(90deg, #72072D 0%, #FF005C 100%);
+    border: 1px solid #FFFFFF;
+    border-radius: 16px;
+    padding: 0 30px;
+}
+.search-txt{
+border: none;
+    background: none;
+    font-weight: 400;
+    font-size: 16px;
+outline: none;
+    padding: 0;
+color: white}
+.search-btn{
+    color: white;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.images{
+    width: 85px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin: 20px}
+/*------*/
+.family{
+    background:url("family-img2.png");
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.family-clothes h1{
+    font-weight: 500;
+    font-size: 48px;
+  color: #72072D;
+
+}
+.catalog{
+    font-weight: 900;
+    font-size: 24px;
+    color: #FF005C;
+    padding: 70px 0;
+}
+.family-img {
+    width: 485px;
+    height: 381px;
+    border-radius: 28px;
+}
+
+
+/*0-------*/
+#footer{
+
+}
+.footer{
+    background: linear-gradient(269.84deg, #FF005C -10.98%, rgba(0, 0, 0, 0.88) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.txt-2{
+    font-weight: 700;
+    font-size: 24px;
+     color: #FFFFFF;
+}
+.footer h6{
+    font-weight: 400;
+    font-size: 18px;
+ color: #FFFFFF;
+    margin: 20px;
+}
+.footer p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+
+
+}
+.footer i{
+    width: 24px;
+    height: 24px;
+    color: white;
+margin: 6px;
+}
+
+.line{
+    width: 90%;
+    height: 2px;
+    border: 0.5px solid #FFFFFF
+}
+.txt-finish h2{
+    font-weight: 400;
+    font-size: 11px;
+  color: rgba(255, 255, 255, 0.6);
+    padding: 15px 15px;
+  }
+.txt-finish {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(269.84deg, #FF005C -10.98%, rgba(0, 0, 0, 0.88) 100%);
+
+}
+.txt-5 h6 {
+    text-align: center;
+}
+.txt-4 h5{
+    margin-top: 100px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+
+}
+/*vhdhwevhjhsv8?*/
+.label{
+display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+}
+.label label{
+    margin-top: 170px;
+    display: flex;
+    align-items:center;
+    padding: 10px 30px;
+    font-size: 20px;
+    color: white;
+    border: none;
+}
+.label-right{
+    width: 315px;
+    height: 232px;
+    border-radius: 17px;
+    margin: 10px 10px;
+background:  url("women-img.png ")
+;
+}
+
+.label-left{
+    background: url("men-img.png");
+    width: 315px;
+    height: 232px;
+    border-radius: 17px;
+    margin: 10px 10px;
+}
+.label-bottom{
+    background: url("kids-img.png");
+    width: 315px;
+    height: 232px;
+    border-radius: 17px;
+    margin: 10px 10px;
+}
+.label-top{
+    width: 315px;
+    height: 232px;
+    border-radius: 17px;
+    margin: 10px 10px;
+    background: url("shoes-men.png ");
+}
+.hero{
+    background: #FFFFFF;
+}
+.tabs input {
+    display: none;
+}
+
+.hero-hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+}
+.hero img   {
+    width: 238px;
+    height: 284px;
+
+}
+.hero-hero img{
+    margin: 10px 5px;
+}
+
+.hero-img-btn{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.hero-img-btn i{
+    color: #D118A8;
+}
+
+.hero-img-btn button
+{
+    margin-left: 50px;
+  width: 35px;
+    height: 25px;
+    border: 1px solid #D118A8;
+border-radius: 4px;
+    background: white;
+}
+.hero-img-btn h1{
+    font-weight: 800;
+    font-size: 24px;
+     color: #000000;
+}
+.hero-img-btn p{
+    font-weight: 300;
+    font-size: 16px;
+   color: #000000;
+
+}
+
+.hero-btn{
+display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.btn-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    font-weight: 400;
+    font-size: 18px;
+    color: #D118A8;
+    border: 1px solid #D118A8;
+    border-radius: 40px;
+    width: 220px;
+    height: 42px;
+}
+.btn-left i{
+    margin-left: 5px;
+    width: 15px;
+    border:#D118A8;
+}
+.btn-left:active{
+    transform: scale(1.1);
+}
+.hero-img-A h1{
+
+    font-weight: 800;
+    font-size: 24px;
+     color: #000000;
+}
+.hero-img-A p{
+    padding: 12px;
+    font-weight: 300;
+    font-size: 16px;
+     color: #000000;
+}
+#men:checked~.women,
+#men:checked~.kids,
+#men:checked~.shoes
+{
+    display: none;
+}
+#women:checked~.men,
+#women:checked~.kids,
+#women:checked~.shoes {
+    display: none;
+}
+#kids:checked~.men,
+#kids:checked~.women,
+#kids:checked~.shoes {
+    display: none;
+}
+#shoes:checked~.men,
+#shoes:checked~.women,
+#shoes:checked~.kids {
+    display: none;
+}
+.btn{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    border-radius: 50px;
+    padding: 20px;
+}
+.btn button{
+    color: #FFFFFF;
+    width: 44px;
+    height: 44px;
+border-radius: 50px;
+border: #72072D ;
+    background: linear-gradient(270.73deg, #FF005C 0.7%, #72072D 89.36%);
+}
+.btn a{
+    color: #FFFFFF;
+}
+.catalog a{
+color: deeppink;
+}
+.katalog{
+    font-weight: 700;
+    font-size: 30px;
+     color: #72072D;
+    margin-left: 20px;
+}
+.katalog a{
+    color: #72072D;
+}
+.tabs h1{
+    font-weight: 700;
+    font-size: 40px;
+     color: #72072D;
+
+}
+.tabs a{
+    color: #72072D;
+}
+@media   (max-width: 390px) {
+    .search {
+        display: none;}
+    .header{
+        display: none;}
+    .family-clothes h1 {
+        display: none;}
+}
